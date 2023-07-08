@@ -1,0 +1,84 @@
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(170, 148, 87);
+}
+
+.about img{
+    height: auto;
+    width: 525px;
+}
+
+.about-text{
+    width: 550px
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: rgb(155, 59, 59);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4;
+}
+
+
+button{
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.Location{
+    margin-left: 50px;
+}
